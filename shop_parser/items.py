@@ -9,6 +9,10 @@ import scrapy
 
 
 class ShopParserItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    brand = scrapy.Field()
+    price = scrapy.Field()
+    description = scrapy.Field()
+    currency = scrapy.Field()
+    size = scrapy.Field()
+    image = scrapy.Field()
