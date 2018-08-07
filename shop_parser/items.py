@@ -8,11 +8,12 @@
 import scrapy
 
 
-class ShopParserItem(scrapy.Item):
+class Product(scrapy.Item):
     name = scrapy.Field()
     brand = scrapy.Field()
     price = scrapy.Field()
     description = scrapy.Field()
     currency = scrapy.Field()
     size = scrapy.Field()
+    color = scrapy.Field()
     image = scrapy.Field()
